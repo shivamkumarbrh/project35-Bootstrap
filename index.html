@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodBlog</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/14d686e227.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <!-- <div class="container-fluid d-flex justify-content-between"> -->
+    <nav class="navbar" id="topNavbar">
+            <li class="nav-item"><button class="nav-link" onclick="onOpen()"><i class="fa-solid fa-bars"></i></button></li>
+            <li class="nav-item"><a href="#food" class="nav-link">My Food</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Mail</a></li>
+    </nav>
+<!-- </div> -->
+
+<!-- Offcanvas  -->
+<div class="offcanva">
+  <button onclick="onClose()">Close Menu</button>
+  <a href="#food">Food</a>
+  <a href="#about">About</a>
+</div>
+
+
+
+    <!-- menu -->
+    <section id="food">
+        <div class="container-fluid px-4 mt-5">
+    <div class="row mx-0 mt-5">
+        <div class="col-md-3 col-sm-3 cardBox">
+            <div class="card" >
+                <img src="https://cdn.pixabay.com/photo/2013/04/07/21/30/bread-101636_960_720.jpg" class="card-img-top" alt="..." class="img-fluid" >
+                <div class="card-body">
+                  <h5 class="card-title">The Perfect Sandwich, A Real NYC Classic</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-3 cardBox">
+            <div class="card" >
+                <img src="https://cdn.pixabay.com/photo/2015/01/25/18/07/tomatoes-611597_960_720.jpg" class="card-img-top" alt="..." class="img-fluid">
+                <div class="card-body">
+                  <h5 class="card-title">Let Me Tell You About This Steak</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-3 cardBox">
+            <div class="card" >
+                <img src="https://cdn.pixabay.com/photo/2015/12/09/17/11/vegetable-1085065_960_720.jpg" class="card-img-top" alt="..." class="img-fluid">
+                <div class="card-body">
+                  <h5 class="card-title">Cherries, interrupted</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <br>What else?</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-3 cardBox">
+            <div class="card" >
+                <img src="https://cdn.pixabay.com/photo/2011/09/14/12/37/grapes-9218_960_720.jpg" class="card-img-top" alt="..." class="img-fluid">
+                <div class="card-body">
+                  <h5 class="card-title">Once Again, Robust Wine and Vegetable Pasta</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+        <div class="container-fluid px-4">
+    <div class="row mx-0 mt-5">
+        <div class="col-md-3 col-sm-3 cardBox">
+            <div class="card" >
+                <img src="https://cdn.pixabay.com/photo/2013/04/07/21/30/bread-101636_960_720.jpg" class="card-img-top" alt="..." class="img-fluid"  >
+                <div class="card-body">
+                  <h5 class="card-title">The Perfect Sandwich, A Real NYC Classic</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-3 cardBox">
+            <div class="card" >
+                <img src="https://cdn.pixabay.com/photo/2015/01/25/18/07/tomatoes-611597_960_720.jpg" class="card-img-top" alt="..." class="img-fluid">
+                <div class="card-body">
+                  <h5 class="card-title">Let Me Tell You About This Steak</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-3 cardBox">
+            <div class="card" >
+                <img src="https://cdn.pixabay.com/photo/2015/12/09/17/11/vegetable-1085065_960_720.jpg" class="card-img-top" alt="..." class="img-fluid">
+                <div class="card-body">
+                  <h5 class="card-title">Cherries, interrupted</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content. <br>What else?</p>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3 col-sm-3 cardBox">
+            <div class="card" >
+                <img src="https://cdn.pixabay.com/photo/2011/09/14/12/37/grapes-9218_960_720.jpg" class="card-img-top" alt="..." class="img-fluid">
+                <div class="card-body">
+                  <h5 class="card-title">Once Again, Robust Wine and Vegetable Pasta</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+              </div>
+        </div>
+    </div>
+</div>
+    </section>
+    <!-- pagation  -->
+    <nav aria-label="Page navigation example ">
+        <ul class="pagination  justify-content-center my-5">
+          <li class="page-item ">
+            <a class="page-link" href="#" aria-label="Previous">
+              <span aria-hidden="true">&laquo;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" id="active" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#" aria-label="Next">
+              <span aria-hidden="true">&raquo;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- about section  -->
+      <section id="about" class="px-5">
+        <div class="container-fluid border-top border-1 ">
+        <h3 class="text-center mt-5">About Me,The Food Man</h3>
+        <img src="https://cdn.pixabay.com/photo/2018/02/15/19/42/sunset-3156176_960_720.jpg" alt="" class="img-fluid aboutImg">
+        <h4 class="text-center mt-5">I am Who I Am!</h4>
+        <p class="text-center"><i>With Passion For Real, Good Food</i></p>
+        <p class="mb-5">Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    </div>
+      </section>
+      <footer>
+        <div class="box">
+            <p class="boxHeader">Footer</p>
+            <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+            <p>Powered by CodEBYKumar</p>
+        </div>
+        <div class="box">
+            <p class="boxHeader">Blog Posts</p>
+            <div class="boxBody">
+                <img src="https://cdn.pixabay.com/photo/2014/02/27/16/10/flowers-276014_960_720.jpg" alt="" width="70px" height="70px"><span>Lorem <br>Sed mattis nunc</span>
+            </div>
+            <hr style="width: 90%;">
+            <div class="boxBody">
+                <img src="https://cdn.pixabay.com/photo/2012/03/01/00/55/flowers-19830_960_720.jpg" alt="" width="70px" height="70px"><span>Lorem <br>Sed mattis nunc</span>
+            </div>
+        </div>
+        <div class="box" id="boxRightSpan">
+            <p class="boxHeader">Popular Tags</p>
+            <p >
+            <span>Travel</span>
+            <span>Lucknow</span>
+            <span>Agra</span>
+            <span>Varansi</span>
+            <span>Mumbai</span>
+            <span>New Delhi</span>
+            <span>Patna</span>
+            <span>Games</span>
+            <span>Food</span>
+            <span>Gym</span>
+            <span>Place</span>
+            <span>Cloths</span>
+        </p>
+        </div>
+      </footer>
+      <script src="script.js"></script>
+</body>
+</html>

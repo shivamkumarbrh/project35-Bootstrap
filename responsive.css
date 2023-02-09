@@ -1,0 +1,16 @@
+@media screen and (max-width:992px) {
+    .aboutImg{
+        width: 100%;
+    }
+}
+@media screen and (max-width:600px) {
+    .cardBox{
+        width: 98% !important;
+        margin: 0px auto;
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    footer .box{
+        width: 98%;
+    }
+}
